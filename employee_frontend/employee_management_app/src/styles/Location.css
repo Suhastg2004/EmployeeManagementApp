@@ -1,0 +1,73 @@
+.location-container {
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.location-container h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.location-container .form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.location-container .form input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.location-container .form button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.location-container .form button:hover {
+  background-color: #218838;
+}
+
+.location-container .list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.location-container .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
+
+.location-container .delete-btn {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.location-container .delete-btn:hover {
+  background-color: #c82333;
+}
